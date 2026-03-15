@@ -32,7 +32,6 @@ agg_data=avg_weekly_sales_per_month(clean_data)
 
 # Create the load() function that takes in the cleaned DataFrame and the aggregated one with the paths where they are going to be stored
 def load(full_data, full_data_file_path, agg_data, agg_data_file_path):
-    # Write your code here
     clean_to_csv = full_data.to_csv(full_data_file_path,index=False)
     agg_to_csv = agg_data.to_csv(agg_data_file_path, index=False)
 
@@ -40,7 +39,6 @@ load(clean_data,'clean_data.csv', agg_data, 'agg_data.csv')
 
 # Create the validation() function with one parameter: file_path - to check whether the previous function was correctly executed
 def validation(file_path):
-    # Write your code here
     if not file_path:
         raise Exception('There is no file in the directiory')
 
