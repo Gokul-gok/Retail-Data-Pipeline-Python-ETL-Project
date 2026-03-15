@@ -23,6 +23,8 @@ extra_data.parquet
 "Size" - size of the store
 "Type" - type of the store (depends on Size column)
 
+NB: The source of the dataset is from DataCamp
+
 I merged those files and perform some data manipulations. The transformed DataFrame can then be stored as the clean_data variable containing the following columns:
 
 "Store_ID"
