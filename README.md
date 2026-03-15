@@ -35,10 +35,7 @@ I merged those files and perform some data manipulations. The transformed DataFr
 "CPI"
 ""Unemployment""
 
-After merging and cleaning the data, I analyzed monthly sales of Walmart and store the results of your analysis as the agg_data variable that should look like:
+After merging and cleaning the data, I analyzed monthly sales of Walmart and store the results of your analysis as the agg_data variable.
 
-Month	Weekly_Sales
-1.0	33174.178494
-2.0	34333.326579
-...	...
+
 Finally, I saved the clean_data and agg_data as the csv files.
